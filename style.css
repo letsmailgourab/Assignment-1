@@ -1,0 +1,110 @@
+body{
+font-family: 'Poppins', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Ysabeau Infant', sans-serif;
+overflow-x: hidden;
+}
+
+.flex{
+    display: flex;
+}
+.first-pera{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 150px;
+}
+.line{
+    border-left: 4px solid blueviolet;
+    padding: 10px;
+    font-size: 50px;
+}
+.Explore{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+.descrip{
+    width: 80%;
+    margin-bottom: 40px;
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.first-pera img{
+    width: 68%;
+    margin-top: 0px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+.my-mission{
+    width: 100%;
+    margin-left: 570px;
+    font-size: 45px;
+    font-weight: 800;
+}
+.place{
+    width: 90%;
+    margin-left: 80px;
+    box-shadow: 0 15px 50px gray;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.h1-color{
+    background-color: rgb(243, 165, 137);
+}
+.h2-color{
+    background-color: rgb(202, 211, 221);
+}
+.h3-color{
+    background-color: rgb(170, 217, 246);
+}
+.descrip-2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.know-our{
+    width: 50%;
+    margin-left: 80px;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 180px; 
+}
+.descrip-3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 80px;  
+}
+.contact input[type="text"],
+.contact input[type="email"] {
+  margin-bottom: 24px;
+  border: 0px;                           /* Name and Email box details */
+  width: 86%;
+  padding: 18px 30px;
+  background-color: #FFF; 
+}
+.contact textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 86%;                   /* Message box details */
+    padding: 18px 30px;
+    background-color: #FFF; 
+    resize: vertical;
+  }
+ input.btn-primary {
+    height: 64px;
+    background-color: rgb(17, 11, 11);       /* Submit button */
+    padding: 10px 40px;
+    border: 0;
+    color: #FFF; 
+    cursor: pointer;
+  }
+ input.btn-primary:hover {
+    background-color: #0e0d0e;                  /* Mouse pointer over sumbit button */
+  } 
+.contact{
+    background-color: rgb(240, 102, 134);
+}
